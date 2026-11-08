@@ -1,0 +1,18 @@
+# Runtime dependencies, pinned to the exact versions the app, the saved models and
+# the published results were produced and tested with. Streamlit Community Cloud
+# installs this file. Keep scikit-learn on the same version as the one that wrote
+# models/*.joblib (see models/metadata.json), or retrain after upgrading.
+#
+# Tested on Python 3.14 (Community Cloud's default) and 3.15.
+streamlit==1.67.0
+starlette==1.10.0        # pinned with Streamlit: mismatched versions crash at startup
+uvicorn==0.54.0
+pandas==3.1.1
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+plotly==7.1.0
+matplotlib==3.11.2
+reportlab==5.1.0
+pyarrow==26.0.1

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data and trained artifacts ARE committed on purpose (about 3.5 MB in total):
+# the deployed app (Streamlit Community Cloud) has no training step, so it needs
+# the pinned dataset, the split, the fitted models with their hash metadata and
+# the experiment results. Re-create them with:
+#   python -m src.data.loader
+#   python -m src.training.train
+#   python -m src.training.multi_seed
+data/raw/*.part
+
+# Logs and the PDF (the app builds the PDF on demand)
+reports/*.txt
+reports/*.pdf
+reports/figures/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local tooling
+.claude/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Original course notebook: IBM copyright, kept locally only
+notebooks/*.ipynb

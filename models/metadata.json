@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-06T22:50:13+00:00",
+  "selected_model": "hist_gradient_boosting",
+  "selected_display_name": "Hist Gradient Boosting",
+  "decision_threshold": 0.5,
+  "features": [
+    "age",
+    "sibsp",
+    "parch",
+    "fare",
+    "pclass",
+    "sex",
+    "embarked"
+  ],
+  "data_sha256": "81787d320d7f7b03df935e91de8bd19e11d45c5bbcab86ef4d4a76dc91b7d4f2",
+  "model_sha256": {
+    "logistic_regression.joblib": "01d5d656b26a7e7b06df0547cbc130f4784bc2cd959daebd22e6ac1132c8d27a",
+    "random_forest.joblib": "7915b119e5e05cfaa381415f52b006fe37164cc072fce16ff567503e133a2ec0",
+    "decision_tree.joblib": "fde15171e225992f04d2c6da2dffa052234ce9b80cbd3750ebd82bb1885206b7",
+    "hist_gradient_boosting.joblib": "d3445463472ef1a70e3e0b4daeafb7875448380492577794c74e9007673cd343",
+    "svm.joblib": "84457647bb4195f2d24ee2c42a4d5e8799ab32b1ed25518056a6a0084a84b670",
+    "best_model.joblib": "d3445463472ef1a70e3e0b4daeafb7875448380492577794c74e9007673cd343"
+  },
+  "environment": {
+    "python": "3.15.0",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  }
+}

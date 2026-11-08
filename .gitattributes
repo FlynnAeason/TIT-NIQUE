@@ -1,0 +1,9 @@
+# Normalise text line endings, but never touch binary or hash-checked files:
+# the app refuses to load a model whose SHA-256 differs from models/metadata.json,
+# so any byte change to a .joblib file would break the deployed app.
+* text=auto
+*.joblib binary
+*.png binary
+*.pdf binary
+*.ipynb text eol=lf
+data/raw/titanic.csv -text

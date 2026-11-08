@@ -1,0 +1,1011 @@
+{
+  "generated_at": "2026-11-06T22:55:26+00:00",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "n_iter": 10,
+  "nested_cv": false,
+  "config": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "n_iter": 10,
+    "nested_cv": false,
+    "outer_folds": 5,
+    "selection_metric": "roc_auc",
+    "n_bootstrap": 2000,
+    "permutation_repeats": 30,
+    "n_jobs": -1,
+    "decision_threshold": 0.5
+  },
+  "rows": [
+    {
+      "seed": 42,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8576191248957705,
+      "test_auc": 0.8459815546772068,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 42,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8762741178767823,
+      "test_auc": 0.8432147562582345,
+      "test_accuracy": 0.8100558659217877,
+      "selected": false
+    },
+    {
+      "seed": 42,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8470845603369114,
+      "test_auc": 0.7917654808959157,
+      "test_accuracy": 0.7653631284916201,
+      "selected": false
+    },
+    {
+      "seed": 42,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8819384413624226,
+      "test_auc": 0.8154808959156786,
+      "test_accuracy": 0.7821229050279329,
+      "selected": true
+    },
+    {
+      "seed": 42,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8615389395522625,
+      "test_auc": 0.8416337285902504,
+      "test_accuracy": 0.7821229050279329,
+      "selected": false
+    },
+    {
+      "seed": 43,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.855628291799922,
+      "test_auc": 0.8617918313570487,
+      "test_accuracy": 0.8212290502793296,
+      "selected": false
+    },
+    {
+      "seed": 43,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8695951283999873,
+      "test_auc": 0.8681159420289856,
+      "test_accuracy": 0.8435754189944135,
+      "selected": true
+    },
+    {
+      "seed": 43,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8551752636078656,
+      "test_auc": 0.8788537549407115,
+      "test_accuracy": 0.8212290502793296,
+      "selected": false
+    },
+    {
+      "seed": 43,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8649023674572263,
+      "test_auc": 0.8685111989459815,
+      "test_accuracy": 0.8268156424581006,
+      "selected": false
+    },
+    {
+      "seed": 43,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8498369140728075,
+      "test_auc": 0.8430830039525693,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 44,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8745665115100852,
+      "test_auc": 0.7977602108036892,
+      "test_accuracy": 0.7486033519553073,
+      "selected": false
+    },
+    {
+      "seed": 44,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8819785762536547,
+      "test_auc": 0.8152832674571806,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 44,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.858306735062221,
+      "test_auc": 0.8011198945981555,
+      "test_accuracy": 0.7430167597765364,
+      "selected": false
+    },
+    {
+      "seed": 44,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8819581261940197,
+      "test_auc": 0.8177206851119895,
+      "test_accuracy": 0.7988826815642458,
+      "selected": true
+    },
+    {
+      "seed": 44,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8704647836779497,
+      "test_auc": 0.8044795783926219,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 45,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8517834035232154,
+      "test_auc": 0.8593544137022399,
+      "test_accuracy": 0.770949720670391,
+      "selected": false
+    },
+    {
+      "seed": 45,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.85817516861404,
+      "test_auc": 0.8892621870882741,
+      "test_accuracy": 0.8100558659217877,
+      "selected": false
+    },
+    {
+      "seed": 45,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8406910800797947,
+      "test_auc": 0.8313570487483531,
+      "test_accuracy": 0.770949720670391,
+      "selected": false
+    },
+    {
+      "seed": 45,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8622105986721975,
+      "test_auc": 0.8749670619235838,
+      "test_accuracy": 0.8379888268156425,
+      "selected": true
+    },
+    {
+      "seed": 45,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8504901153647235,
+      "test_auc": 0.8618577075098814,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 46,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8564383120652714,
+      "test_auc": 0.8566534914361001,
+      "test_accuracy": 0.8324022346368715,
+      "selected": false
+    },
+    {
+      "seed": 46,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8653198389326915,
+      "test_auc": 0.8657444005270092,
+      "test_accuracy": 0.8324022346368715,
+      "selected": false
+    },
+    {
+      "seed": 46,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8548654386076017,
+      "test_auc": 0.841106719367589,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 46,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8667080945294112,
+      "test_auc": 0.8525691699604744,
+      "test_accuracy": 0.7877094972067039,
+      "selected": true
+    },
+    {
+      "seed": 46,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8555836315083963,
+      "test_auc": 0.8631093544137023,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 47,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8553880365831776,
+      "test_auc": 0.8586297760210805,
+      "test_accuracy": 0.7597765363128491,
+      "selected": false
+    },
+    {
+      "seed": 47,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8718401755274796,
+      "test_auc": 0.8370223978919632,
+      "test_accuracy": 0.7430167597765364,
+      "selected": true
+    },
+    {
+      "seed": 47,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8622821738809201,
+      "test_auc": 0.8194993412384718,
+      "test_accuracy": 0.7374301675977654,
+      "selected": false
+    },
+    {
+      "seed": 47,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8702158338874642,
+      "test_auc": 0.8430171277997365,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 47,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8554939810856739,
+      "test_auc": 0.8642951251646904,
+      "test_accuracy": 0.7653631284916201,
+      "selected": false
+    },
+    {
+      "seed": 48,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8651101796438787,
+      "test_auc": 0.825296442687747,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 48,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8846517288876223,
+      "test_auc": 0.8257575757575758,
+      "test_accuracy": 0.8100558659217877,
+      "selected": true
+    },
+    {
+      "seed": 48,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8636151483486907,
+      "test_auc": 0.8105401844532278,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 48,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8778135983661063,
+      "test_auc": 0.8117259552042161,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 48,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8707646079393729,
+      "test_auc": 0.8061923583662713,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 49,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8644348131260358,
+      "test_auc": 0.8326745718050066,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 49,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8670225240914895,
+      "test_auc": 0.869828722002635,
+      "test_accuracy": 0.8491620111731844,
+      "selected": false
+    },
+    {
+      "seed": 49,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8661284342906599,
+      "test_auc": 0.8544795783926219,
+      "test_accuracy": 0.8379888268156425,
+      "selected": false
+    },
+    {
+      "seed": 49,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8682372180530488,
+      "test_auc": 0.8606060606060606,
+      "test_accuracy": 0.8659217877094972,
+      "selected": true
+    },
+    {
+      "seed": 49,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8675899011008728,
+      "test_auc": 0.8483530961791832,
+      "test_accuracy": 0.8100558659217877,
+      "selected": false
+    },
+    {
+      "seed": 50,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8485598144453943,
+      "test_auc": 0.8840579710144927,
+      "test_accuracy": 0.8435754189944135,
+      "selected": false
+    },
+    {
+      "seed": 50,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8555201175812461,
+      "test_auc": 0.8808959156785243,
+      "test_accuracy": 0.8379888268156425,
+      "selected": true
+    },
+    {
+      "seed": 50,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8382025980811246,
+      "test_auc": 0.8428194993412386,
+      "test_accuracy": 0.8268156424581006,
+      "selected": false
+    },
+    {
+      "seed": 50,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8535902652438703,
+      "test_auc": 0.8955862977602108,
+      "test_accuracy": 0.8379888268156425,
+      "selected": false
+    },
+    {
+      "seed": 50,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8476095595452963,
+      "test_auc": 0.8808959156785243,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 51,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.864546364902948,
+      "test_auc": 0.8179841897233201,
+      "test_accuracy": 0.7262569832402235,
+      "selected": false
+    },
+    {
+      "seed": 51,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8823354100039053,
+      "test_auc": 0.7957180500658763,
+      "test_accuracy": 0.7430167597765364,
+      "selected": true
+    },
+    {
+      "seed": 51,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8604884529727791,
+      "test_auc": 0.7353754940711462,
+      "test_accuracy": 0.7262569832402235,
+      "selected": false
+    },
+    {
+      "seed": 51,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8803087827069017,
+      "test_auc": 0.7647562582345191,
+      "test_accuracy": 0.7597765363128491,
+      "selected": false
+    },
+    {
+      "seed": 51,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8573154613005709,
+      "test_auc": 0.8248353096179183,
+      "test_accuracy": 0.7318435754189944,
+      "selected": false
+    },
+    {
+      "seed": 52,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8597514064363594,
+      "test_auc": 0.8401844532279314,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 52,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8813616837127809,
+      "test_auc": 0.8351778656126482,
+      "test_accuracy": 0.776536312849162,
+      "selected": true
+    },
+    {
+      "seed": 52,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8606098867462503,
+      "test_auc": 0.8229249011857709,
+      "test_accuracy": 0.7486033519553073,
+      "selected": false
+    },
+    {
+      "seed": 52,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8806216290385571,
+      "test_auc": 0.8395256916996047,
+      "test_accuracy": 0.8212290502793296,
+      "selected": false
+    },
+    {
+      "seed": 52,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8633130679839145,
+      "test_auc": 0.8433465085638999,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 53,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8456672128811628,
+      "test_auc": 0.9060606060606061,
+      "test_accuracy": 0.8268156424581006,
+      "selected": false
+    },
+    {
+      "seed": 53,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8554482389200256,
+      "test_auc": 0.9212121212121213,
+      "test_accuracy": 0.8547486033519553,
+      "selected": false
+    },
+    {
+      "seed": 53,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8291458471865996,
+      "test_auc": 0.8977602108036892,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 53,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8565887057619033,
+      "test_auc": 0.907312252964427,
+      "test_accuracy": 0.8156424581005587,
+      "selected": true
+    },
+    {
+      "seed": 53,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8407952962224121,
+      "test_auc": 0.8905138339920949,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 54,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8517840104282112,
+      "test_auc": 0.8861001317523056,
+      "test_accuracy": 0.8379888268156425,
+      "selected": false
+    },
+    {
+      "seed": 54,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8674544557381549,
+      "test_auc": 0.9000658761528326,
+      "test_accuracy": 0.8435754189944135,
+      "selected": false
+    },
+    {
+      "seed": 54,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.866233837856095,
+      "test_auc": 0.8330698287220026,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 54,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8726910827185123,
+      "test_auc": 0.9015151515151515,
+      "test_accuracy": 0.8547486033519553,
+      "selected": true
+    },
+    {
+      "seed": 54,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8520790190304297,
+      "test_auc": 0.8788537549407115,
+      "test_accuracy": 0.8491620111731844,
+      "selected": false
+    },
+    {
+      "seed": 55,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8472342415798527,
+      "test_auc": 0.8654150197628458,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 55,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8714630500406362,
+      "test_auc": 0.8672595520421608,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 55,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8420117977053714,
+      "test_auc": 0.8417654808959156,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 55,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8748923799119723,
+      "test_auc": 0.8453227931488801,
+      "test_accuracy": 0.8156424581005587,
+      "selected": true
+    },
+    {
+      "seed": 55,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8497137387458704,
+      "test_auc": 0.8597496706192358,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 56,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8573041148158704,
+      "test_auc": 0.8208168642951252,
+      "test_accuracy": 0.7541899441340782,
+      "selected": false
+    },
+    {
+      "seed": 56,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8680954397686372,
+      "test_auc": 0.8294466403162055,
+      "test_accuracy": 0.8044692737430168,
+      "selected": true
+    },
+    {
+      "seed": 56,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8665741532355952,
+      "test_auc": 0.8349143610013176,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 56,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8655724961210856,
+      "test_auc": 0.8140974967061924,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 56,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.855765927298059,
+      "test_auc": 0.830961791831357,
+      "test_accuracy": 0.7486033519553073,
+      "selected": false
+    },
+    {
+      "seed": 57,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8607771814276516,
+      "test_auc": 0.8391304347826087,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 57,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8684851255501727,
+      "test_auc": 0.8457180500658762,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 57,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8531260356965685,
+      "test_auc": 0.8476943346508563,
+      "test_accuracy": 0.8212290502793296,
+      "selected": false
+    },
+    {
+      "seed": 57,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8780881569086898,
+      "test_auc": 0.8454545454545455,
+      "test_accuracy": 0.7821229050279329,
+      "selected": true
+    },
+    {
+      "seed": 57,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8633819912816778,
+      "test_auc": 0.8196310935441371,
+      "test_accuracy": 0.7877094972067039,
+      "selected": false
+    },
+    {
+      "seed": 58,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8563203482051444,
+      "test_auc": 0.8552042160737813,
+      "test_accuracy": 0.7932960893854749,
+      "selected": false
+    },
+    {
+      "seed": 58,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8733257206337143,
+      "test_auc": 0.8565217391304348,
+      "test_accuracy": 0.7821229050279329,
+      "selected": false
+    },
+    {
+      "seed": 58,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8496900958382149,
+      "test_auc": 0.8303030303030304,
+      "test_accuracy": 0.7597765363128491,
+      "selected": false
+    },
+    {
+      "seed": 58,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8732602672492955,
+      "test_auc": 0.8581686429512516,
+      "test_accuracy": 0.8100558659217877,
+      "selected": true
+    },
+    {
+      "seed": 58,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8518045792301278,
+      "test_auc": 0.8582345191040843,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 59,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8554944824419746,
+      "test_auc": 0.8676548089591567,
+      "test_accuracy": 0.7653631284916201,
+      "selected": false
+    },
+    {
+      "seed": 59,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8639921155124917,
+      "test_auc": 0.8764822134387352,
+      "test_accuracy": 0.8044692737430168,
+      "selected": true
+    },
+    {
+      "seed": 59,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8514512285868084,
+      "test_auc": 0.8545454545454546,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 59,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8608263539258836,
+      "test_auc": 0.8864953886693018,
+      "test_accuracy": 0.8379888268156425,
+      "selected": false
+    },
+    {
+      "seed": 59,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8542856332393949,
+      "test_auc": 0.8476284584980237,
+      "test_accuracy": 0.776536312849162,
+      "selected": false
+    },
+    {
+      "seed": 60,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8498260689444075,
+      "test_auc": 0.8780632411067194,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 60,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8670543866037596,
+      "test_auc": 0.8806324110671937,
+      "test_accuracy": 0.8324022346368715,
+      "selected": false
+    },
+    {
+      "seed": 60,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8438988368533824,
+      "test_auc": 0.8739789196310936,
+      "test_accuracy": 0.7988826815642458,
+      "selected": false
+    },
+    {
+      "seed": 60,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8689984748213588,
+      "test_auc": 0.8774044795783926,
+      "test_accuracy": 0.8324022346368715,
+      "selected": true
+    },
+    {
+      "seed": 60,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8478929709846638,
+      "test_auc": 0.8648880105401844,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 61,
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "cv_auc": 0.8598806508132526,
+      "test_auc": 0.8430171277997365,
+      "test_accuracy": 0.8100558659217877,
+      "selected": false
+    },
+    {
+      "seed": 61,
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "cv_auc": 0.8666169664249601,
+      "test_auc": 0.8710803689064559,
+      "test_accuracy": 0.8268156424581006,
+      "selected": true
+    },
+    {
+      "seed": 61,
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "cv_auc": 0.8464114895031821,
+      "test_auc": 0.8440711462450592,
+      "test_accuracy": 0.8044692737430168,
+      "selected": false
+    },
+    {
+      "seed": 61,
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "cv_auc": 0.8659374307336691,
+      "test_auc": 0.8756916996047431,
+      "test_accuracy": 0.8212290502793296,
+      "selected": false
+    },
+    {
+      "seed": 61,
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "cv_auc": 0.8597720939805578,
+      "test_auc": 0.8456521739130436,
+      "test_accuracy": 0.7821229050279329,
+      "selected": false
+    }
+  ],
+  "summary": [
+    {
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "test_auc_mean": 0.8520915678524374,
+      "test_auc_std": 0.02618075051127254,
+      "test_auc_min": 0.7977602108036892,
+      "test_auc_max": 0.9060606060606061,
+      "test_acc_mean": 0.7938547486033519,
+      "test_acc_std": 0.03175291571453684,
+      "times_selected": 0
+    },
+    {
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "test_auc_mean": 0.858722002635046,
+      "test_auc_std": 0.03040125120161409,
+      "test_auc_min": 0.7957180500658763,
+      "test_auc_max": 0.9212121212121213,
+      "test_acc_mean": 0.8094972067039107,
+      "test_acc_std": 0.03206180348965678,
+      "times_selected": 9
+    },
+    {
+      "model": "decision_tree",
+      "display_name": "Decision Tree",
+      "test_auc_mean": 0.8343972332015811,
+      "test_auc_std": 0.03440376227000814,
+      "test_auc_min": 0.7353754940711462,
+      "test_auc_max": 0.8977602108036892,
+      "test_acc_mean": 0.7843575418994414,
+      "test_acc_std": 0.031099547438590357,
+      "times_selected": 0
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "display_name": "Hist Gradient Boosting",
+      "test_auc_mean": 0.8527964426877471,
+      "test_auc_std": 0.03569604894356644,
+      "test_auc_min": 0.7647562582345191,
+      "test_auc_max": 0.907312252964427,
+      "test_acc_mean": 0.8134078212290502,
+      "test_acc_std": 0.02745249828960056,
+      "times_selected": 11
+    },
+    {
+      "model": "svm",
+      "display_name": "Support Vector Machine",
+      "test_auc_mean": 0.8489097496706194,
+      "test_auc_std": 0.023401050320738546,
+      "test_auc_min": 0.8044795783926219,
+      "test_auc_max": 0.8905138339920949,
+      "test_acc_mean": 0.7871508379888268,
+      "test_acc_std": 0.02376419485464464,
+      "times_selected": 0
+    }
+  ],
+  "selected_was_test_best_share": 0.15,
+  "selected_test_auc_mean": 0.8538109354413702,
+  "environment": {
+    "python": "3.15.0",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "runtime_seconds": 267.94591880001826
+}
